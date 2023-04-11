@@ -1,0 +1,173 @@
+.nav-bar {
+  height: 90px;
+  width: 100%;
+  display: flex;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: #1491ea;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+.left-side {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.right-side {
+  display: flex;
+  flex-basis: 50%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.regButton {
+  margin-right: 20px;
+}
+
+.page-name {
+  margin-top: 30px;
+  width: 278px;
+  height: 52px;
+  left: 16px;
+  top: 19px;
+  text-decoration: underline;
+}
+
+.middle-page {
+  position: relative;
+  display: flex;
+  width: 2000px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 200px;
+  margin-top: 170px;
+  width: 300px;
+  height: 550px;
+}
+
+.overlay-2 {
+  position: absolute;
+  background-color: rgba(20, 145, 234, 0.5);
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 400px;
+  width: 600px;
+  margin-left: 650px;
+  margin-top: 200px;
+}
+
+.s-text {
+  font-size: 80px;
+  text-align: left;
+  color: #1491ea;
+  font-weight: bold;
+}
+
+.s-text-1 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.page-img {
+  filter: blur(1px);
+  filter: brightness(60%);
+}
+
+.learn-more {
+  background-color: #1491ea;
+  color: white;
+  top: 200px;
+}
+
+.brief-des {
+  font-size: 25px;
+  text-align: center;
+}
+
+.announcement {
+  display: grid;
+  justify-content: center;
+}
+
+.annc {
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  height: 60px;
+}
+
+.announcement-1,
+.announcement-2,
+.announcement-3 {
+  width: 1190px;
+  height: 208px;
+  background-color: #64c8fa;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  border-radius: 13px;
+  border-color: black;
+  outline: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.annc-1 {
+  font-size: 43px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.annc-2 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.annc-3 {
+  font-size: 37px;
+  font-family: "Times New Roman", Times, serif;
+}
+.learn-more-2 {
+  background-color: #3a4b9a;
+  height: 54px;
+  width: 186px;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.footer {
+  width: 1440px;
+  height: 226px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #29366f;
+  justify-content: center;
+}
+
+.jblogo {
+  display: block; /* Set the display to block to remove any default inline behavior */
+  margin: 0 auto; /* Center the image horizontally by setting the left and right margins to auto */
+  width: 211px;
+  height: 123px;
+}
+
+.footer-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
