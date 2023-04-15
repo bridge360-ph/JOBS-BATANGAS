@@ -1,0 +1,90 @@
+:root {
+  --blue-color: #1491ea;
+  --lightblue-color: #64c8fa;
+  --darkblue-color: #29366f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Donegal One", serif;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn.dark.reg-btn {
+  background: var(--darkblue-color);
+  border-radius: 7px;
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+header {
+  background-color: var(--blue-color);
+  height: 90px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagename {
+  width: 267px;
+  height: 45px;
+  text-decoration: underline;
+  margin-left: 22px;
+  font-family: "Marcellus", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagename a {
+  color: white;
+}
