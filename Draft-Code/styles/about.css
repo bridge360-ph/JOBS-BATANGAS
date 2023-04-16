@@ -25,3 +25,111 @@ img.lgu {
   width: 100%;
   margin-top: 80px;
 }
+.announcement-page {
+  display: grid;
+  justify-content: center;
+}
+.wrapper-1 {
+  text-align: center;
+}
+
+.annc {
+  margin-top: 20;
+  margin-bottom: 26px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+
+  color: #0a1a1e;
+}
+
+.annc-1,
+.annc-2,
+.annc-3 {
+  font-family: "Donegal One", serif;
+
+  display: flex;
+  width: 1190px;
+  height: 208px;
+  background: #64c8fa;
+  border: 1px solid #000000;
+  border-radius: 13px;
+  margin-bottom: 88px;
+}
+
+.btn.dark.learn-more2 {
+  width: 186px;
+  height: 54px;
+
+  background: #29366f;
+  border-radius: 7px;
+}
+
+.local,
+.sk,
+.awards {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 26px;
+}
+
+.right-text {
+  margin-left: 300px;
+}
+
+.annc-p {
+  font-family: "Donegal One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+footer {
+  background-color: var(--darkblue-color);
+  height: 226px;
+  width: 100%;
+  position: relative;
+}
+
+img.jblogo {
+  width: 211px;
+  height: 123px;
+  margin-left: 120px;
+}
+
+.footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-2 ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  list-style: none;
+}
+
+.f-ul li a {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.f-ul {
+  padding-left: 60px;
+}
