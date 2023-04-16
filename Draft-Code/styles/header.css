@@ -29,12 +29,12 @@ a:hover {
   text-decoration: none;
   position: relative;
 }
-
 .btn.dark.reg-btn {
   background: var(--darkblue-color);
   border-radius: 7px;
   font-size: 15px;
   margin-right: 16px;
+  opacity: 1;
 }
 
 header {
@@ -66,6 +66,7 @@ nav {
   font-size: 36px;
   line-height: 45px;
   color: #ffffff;
+  opacity: 1;
 }
 
 nav ul {
