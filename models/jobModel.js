@@ -28,6 +28,10 @@ const jobSchema = new mongoose.Schema({
         required: [true, 'Salary is required']
     },
 
+    location: {
+        type: String,
+    },
+
     available: {
         type: Boolean,
         default: true
